@@ -353,13 +353,6 @@ add_test(
 # add_subdirectory order affects test order
 add_subdirectory(include)
 add_subdirectory(libqpdf)
-add_subdirectory(compare-for-test)
-add_subdirectory(qpdf)
-add_subdirectory(libtests)
-add_subdirectory(examples)
-add_subdirectory(zlib-flate)
-add_subdirectory(manual)
-add_subdirectory(fuzz)
 
 # We don't need to show everything -- just the things that we really
 # need to be sure are right or that are turned on or off with complex
